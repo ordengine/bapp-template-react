@@ -1,0 +1,17 @@
+html, body, #root {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  position: fixed;
+}
+
+@font-face {
+  font-family: DogicaPixelBy;
+  src: url(/content/42338922f7f75874528b6a5b7e6b43b89936fcc623cccb7b5dabcad7c9923aaci0); /* url of the font */
+}
+
+.dogicaPixel {
+  font-family: DogicaPixelBy, sans-serif;
+  --author: "Roberto Mocci: https://patreon.com/rmocci"
+}
