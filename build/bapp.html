@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>bapp-template-react</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+
+    <script id="importmap" src="/content/c0de75106d9fab0dfe69060aac6248cfad9e4a3ad8375ce1d31b007e30ddfd5ci0"></script>
+    <script id="tailwind" src="/content/609b117277f1e9c9f27f358fe02db34e13d08915bbcea18770dc36f5f3afcbb2i2"></script>
+
+    <meta name="description" content="a simple React Bapp template."/>
+    <meta name="keywords" content="bapp, react, giraffes"/>
+    <meta name="author" content="bop.609.bitmap"/>
+    <script type="module" crossorigin>import {jsxs as r, jsx as e} from "react/jsx-runtime";
+    import {StrictMode as t} from "react";
+    import {createRoot as i} from "react-dom/client";
+
+    const n = () => r("div", {
+        className: "w-full h-full flex flex-col justify-center items-center text-[18px] text-lime-300 bg-gradient-to-tl from-zinc-900 to-gray-700",
+        children: [e("div", {className: "w-16 h-16 rounded-sm bg-orange-400 ring-8 ring-neutral-800 hover:ring-neutral-700 active:scale-[90%] cursor-crosshair mb-4"}), r("div", {
+            className: "dogicaPixel tracking-[-1.5px]",
+            children: ["greetings, ", e("b", {
+                className: "text-orange-400 px-0.5 text-[24px]",
+                children: "bitmap"
+            }), e("span", {className: "text-[28px]", children: "!"})]
+        })]
+    });
+
+    function l() {
+        return e("div", {className: "w-full h-full", children: e(n, {})})
+    }
+
+    i(document.getElementById("root")).render(e(t, {children: e(l, {})}));</script>
+    <style rel="stylesheet">html, body, #root {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        background: #111;
+        position: fixed
+    }
+
+    @font-face {
+        font-family: DogicaPixelBy;
+        src: url(/content/42338922f7f75874528b6a5b7e6b43b89936fcc623cccb7b5dabcad7c9923aaci0)
+    }
+
+    .dogicaPixel {
+        font-family: DogicaPixelBy, sans-serif;
+        --author: "Roberto Mocci: https://patreon.com/rmocci"
+    }</style>
+</head>
+<body>
+<div id="root"></div>
+
+</body>
+</html>
